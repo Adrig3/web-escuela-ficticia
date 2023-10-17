@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bubu School</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Arial', 'Helvetica', sans-serif;
+      background-color: #f0f0f0;
+      color: #333;
+    }
+
+    /* Style the header */
+    .header {
+      background-color: #0077b6;
+      padding: 30px;
+      text-align: center;
+      font-size: 45px;
+      color: #fff;
+    }
+
+    /* Create three equal columns that float next to each other */
+    .column {
+      float: left;
+      width: 33.33%;
+      padding: 20px;
+      height: auto;
+      background-color: #fff;
+      text-align: center;
+      border: 1px solid #ddd;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    /* Style the footer */
+    .footer {
+      background-color: #0077b6;
+      padding: 20px;
+      text-align: center;
+      color: #fff;
+    }
+
+    /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+    @media (max-width: 600px) {
+      .column {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar">
+  <ul>
+    <li><a href="#header">Inicio</a></li>
+    <li><a href="#middle">Acerca de</a></li>
+    <li><a href="#footer">Contacto</a></li>
+  </ul>
+</nav>
+<br>
+<div class="header" id="header">
+  <h1>Bubu School</h1>
+</div>
+
+<div class="row">
+  <div class="column">
+    <p>Bienvenido a Bubu School, tu lugar para aprender y crecer.</p>
+    <p>Ofrecemos una educación de calidad que impulsa tu futuro.</p>
+    <img src="escuela 1.jpg" alt="Estudiantes" style="height: 150px; display: block; margin: 0 auto;">
+  </div>
+  <div class="column">
+    <p>Explora nuestro campus virtual y descubre una amplia variedad de cursos y programas académicos.</p>
+    <p>Un equipo de profesores apasionados te guiará en tu viaje de aprendizaje.</p>
+    <img src="escuela 2.jpg" alt="Campus" style="height: 150px; display: block; margin: 0 auto;">
+  </div>
+  <div class="column">
+    <p>En Bubu School, creemos en el poder de la educación para transformar vidas.</p>
+    <p>¡Únete a nuestra comunidad y haz realidad tus sueños!</p>
+    <img src="escuela 3.jpg"Comunidad" style="height: 150px; display: block; margin: 0 auto;">
+  </div>
+</div>
+<br>
+<div class="middle" id="middle" style="text-align: center;">
+    <h2 style="text-align: center;">Acerca de Bubu School</h2>
+    <p>En Bubu School, nos enorgullece ofrecer una experiencia educativa excepcional. Nuestra misión es empoderar a nuestros estudiantes para que alcancen su máximo potencial y se conviertan en líderes en sus campos.</p>
+  </div>
+  
+<br>
+<div class="footer" id="footer">
+  <p>Contacto: +34 123 123 123 | correo@bubuschool.com</p>
+</div>
+<br>
+</body>
+</html>
+
+
+
